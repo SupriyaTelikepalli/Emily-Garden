@@ -8,9 +8,3 @@ static/icons/* linguist-vendored
 # Exclude minified files
 *.min.js linguist-vendored
 *.min.css linguist-vendored
-
-# Exclude node_modules (if applicable)
-node_modules/* linguist-vendored
-
-# Mark markdown files as documentation
-*.md linguist-documentation
