@@ -1,0 +1,16 @@
+# Exclude all static files (JavaScript, CSS, images) from the language stats
+static/js/* linguist-vendored
+static/css/* linguist-vendored
+static/images/* linguist-vendored
+static/icons/* linguist-vendored
+*.svg linguist-vendored
+
+# Exclude minified files
+*.min.js linguist-vendored
+*.min.css linguist-vendored
+
+# Exclude node_modules (if applicable)
+node_modules/* linguist-vendored
+
+# Mark markdown files as documentation
+*.md linguist-documentation
